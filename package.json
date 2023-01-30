@@ -19,27 +19,8 @@
   ],
   "license": "MIT",
   "private": false,
-  "files": [
-    "dist/*",
-    "vue-horizontal.d.ts",
-    "src/**/*.vue"
-  ],
-  "size-limit": [
-    {
-      "path": "./dist/vue-horizontal.umd.js"
-    },
-    {
-      "path": "./dist/vue-horizontal.es.js"
-    }
-  ],
-  "main": "./dist/vue-horizontal.umd.js",
-  "module": "./dist/vue-horizontal.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/vue-horizontal.es.js",
-      "require": "./dist/vue-horizontal.umd.js"
-    }
-  },
+  "types": "vue-horizontal.d.ts",
+  "main": "./src/entry.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
