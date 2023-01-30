@@ -19,8 +19,7 @@
   ],
   "license": "MIT",
   "private": false,
-  "types": "vue-horizontal.d.ts",
-  "main": "./src/entry.ts",
+  "main": "./src/VueHorizontal.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
