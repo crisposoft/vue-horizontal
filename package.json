@@ -21,6 +21,7 @@
   "private": false,
   "files": [
     "dist/*",
+    "vue-horizontal.d.ts",
     "src/**/*.vue"
   ],
   "size-limit": [
